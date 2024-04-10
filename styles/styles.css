@@ -1,0 +1,33 @@
+img {
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+    padding: 0;
+    margin: 0;
+}
+
+.main-page-link-block {
+    border: 1px solid black;
+    background-color: #5e74ff;
+    display: flex;
+    gap: 1px;
+
+}
+
+.main-page-link-block a {
+    text-decoration:double;
+    color: black;
+    background-color: #bbc2ed;
+    padding: 10px;
+}
+
+/* При наведенні курсором */
+.main-page-link-block a:hover {
+    background-color: #bbc2edaa;
+}
